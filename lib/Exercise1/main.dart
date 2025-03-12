@@ -25,7 +25,6 @@ class RidePreferencesService {
   }
 }
 
-// 
 class ConsoleLogger implements RidePreferencesListener {
   @override
   void onPreferenceSelected(RidePreference selectedPreference) {
@@ -33,7 +32,7 @@ class ConsoleLogger implements RidePreferencesListener {
   }
 }
 
-// RidePreference class for testing
+// RidePreference class for test
 class RidePreference {
   final String name;
   RidePreference(this.name);
